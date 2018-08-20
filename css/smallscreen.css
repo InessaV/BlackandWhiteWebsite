@@ -1,0 +1,89 @@
+@media screen and (min-width: 380px) {
+    body {
+        width: 380px;
+    }
+
+    header {
+    height:2.5em;
+    }
+
+    header p {
+        margin-left: 140px;
+        font-size: 200%;
+        margin-bottom: -3px;
+        }
+
+    .colortext1 {
+            font-size: 100%;
+            margin-left: 140px;
+          }
+
+    .leftcol {
+            width: 150px; 
+            height:16em;
+            padding: 5px ;
+           }
+           
+           /*where text in this picture*/
+    .rightcol { /* upper layer */ 
+            left: 0px; 
+            top: 143px; 
+            width: 150px; 
+            padding: 30px;
+           }
+    .mainblock{
+            width: 170px;
+            margin-top: 0px;
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+    
+    .middleblock{	 /*for distance between picture+text and menu */
+            height: auto;
+            margin: 123px 0px 1px 0;
+         }
+    
+    .menu {
+            width: auto;
+            height:1.8em;
+        }
+
+    ul li a {
+             width: 2em;
+             padding:5px;
+             margin:0 ;                
+           }
+    ul.hr li,ul.hr1 li,ul.hr2 li{
+            margin-left: 1.5px;
+            margin-right: 0;
+            margin-top: 0;
+            padding-bottom: 0;/*indents*/
+            padding-left: 2px;
+            padding-right: 2px;
+            padding-top: 0;
+        }
+    .imagearound{
+            width:120px  ;
+            height:100px ;
+        }
+    ul.image li  {
+            padding:5px;
+            margin: 2.5;
+        }
+    img{
+            width:30px  ;
+            height:15px ;
+        }
+    TABLE {
+            width: 120px; 
+        }
+    TH, TD {
+            padding: 2px; 
+           }
+           
+           
+    footer{
+               margin-left: 140px;
+           }
+        
+}
