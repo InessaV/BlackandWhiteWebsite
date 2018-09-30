@@ -1,208 +1,101 @@
-@media screen and (min-width: 380px) {
-    header{
+@media screen and (min-width: 380px)  {
+    header {
         width: auto;
         height:3em;
         margin-top: -40px;
         /*margin-left: -10px;*/   
         /*line-height: 0.001; */
       }
-       header p {
-           color:#FFFFFF;
+    
+    header p {
            margin-left: 150px;
-           font-family: Times New Roman;
            font-size: 150%;
-           font-stretch: semi-condensed;
            /*margin-bottom: -7px;*/
            }
            
     .colortext1 {
-            color: grey;
-            font-family: Lucida Console;
             font-size: 100%;
             margin-left: 150px;
-       
           }    
       
-      .mainblock{
-          background-color: #FFFFFF;
-          color:#000000;
+    .mainblock{
           width: 600px;
           margin-top: 0px;
           margin-left: 150px;
           margin-right: 150px;
-      
       }
       
       /*where big pictire*/
-       .leftcol {
-          position: absolute; 
+    .leftcol {
           width: 582px; 
-          background-image:url(../img/5.jpg);
           height:26em;
           padding: 10px ;
          }
          
          /*where text in this picture*/
-        .rightcol { /* upper layer */ 
-          position: relative; 
-          left: 0px; 
+    .rightcol { /* upper layer */ 
           top: 352px; 
           width: 582px; 
-          background: rgba(0, 0, 0,0.8); 
-          color: #fff; 
           padding: 20px;
           font-size:0.75em;
          }
-       .middleblock{	 /*for distance between picture+text and menu */
+
+    .middleblock{	 /*for distance between picture+text and menu */
           height: auto;
           margin: 350px 0px 1px 0;
        }
-       
-      body {
-            width: auto;
-          height: auto;
-          background: linear-gradient(to top, #D3D3D3 50%, black 50%  );
-              
-      background-repeat: no-repeat;
-      }
 
-   
            
       /*---------------------------------------------------------------------------
       navigation+links*/
-      .menu {
-          background:black;
+    .menu {
           width: 602px;
           height:2.5em;
-          display: flex;
-          justify-content:space-between;
           font-size:0.75em;
       }
 
-      p,label{font-size:0.75em;}
-      h1 {font-size:0.90em;}
-      h2 {font-size:0.85em;}
+    p,label{font-size:0.75em;}
+    h1 {font-size:0.90em;}
+    h2 {font-size:0.85em;}
       
+    .list{
+        font-size:0.55em;	/*space-between*/   
+        width: 530px;
+        margin-left: 10px;
+        }
 
-
- ul{
-	list-style-type: none;
-	
-	padding: 0; /*off list markers and  rstablish  values of indents and fields equal 0*/
-}
-
-.list{
-	display:flex;
-	
-    justify-content: space-around;
-   
-    font-size:0.55em;	/*space-between*/   
-  
-    width: 530px;
-    margin-left: 10px;
-}
-
- ul li {
-	float: left; /*in line */
-}
-
- ul li a {
- display: block;
-                width: 4em;
-                padding:5px;
-                margin-top :-10px ;
-                background-color: black;
-                border: 1px double #333;
-                text-decoration: none;
-                color: white;
-                
-                
-             
-                text-align: center;
-				
-				
-}
- a:hover {
-	 background: white;  
-    color: black;}/* при нажатии меняет цвет фона,необязательно*/
-
-
-ul.hr {
-    list-style-type: none;
-    
-    
-}
-
-
-ul.hr2{
-    list-style-type: decimal;   
-}
-ul.hr1 {
-	list-style-type: disc;
-}
-
-ul.hr li,ul.hr1 li,ul.hr2 li{
-	float: none;
-	Display: list-item;
-	margin-bottom: 0;/*between the lines distance FIELD*/
-	margin-left: 3px;
-	margin-right: 0;
-	margin-top: 0;
-	padding-bottom: 0;/*indents*/
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 0;
-}
-.imagearound{
-	width:200px  ;
-    height:120px ;
-    padding-top: 0em;
-}
-ul.image{
-	display: inline-flex; 
-    justify-content:center;
-}
-
-
-ul.image li  {       /*frame*/
-                padding:5px;
-                margin: 5;
-                background-color: #CDCFC9;
-                
+    ul li a {
+            display: block;
+            width: 4em;
+            padding:5px;
+            margin-top :-10px ;
 			}
-img{            /*size picture*/
-	width:130px  ;
-    height:90px ;
-  
-}
-.smalldistance{
-	display: block;
-}				
 
-TABLE {
-	margin-left: 4px;
-	text-align: left;
-	 border-collapse: collapse; /* minus double lines between сells */
-    width: 590px; 
-    font-size:0.55em;
-}
-TH {
-    background: #DDDDDA; 
-}
- TH, TD {
-    border: 1px solid #CDCFC9; 
-    padding: 4px; /* Fields around the text */
-   }
-   
-   
+    .imagearound{
+	        width:200px  ;
+            height:120px ;
+            padding-top: 0em;
+                }
+
+
+    ul.image li  {       /*frame*/
+                padding:5px;
+                margin: 5;    
+			}
+    img{            /*size picture*/
+	    width:130px  ;
+        height:90px ; 
+        }
+
+    TABLE {
+	    margin-left: 4px;
+        width: 590px; 
+        font-size:0.55em;
+        }
+
    footer{
-      
        margin-left: 150px;
-           font-family: Times New Roman;
-           font-size: 40%;
-           
-   }
-
-
-      
+        font-size: 40%; 
+        }
+  
 }
